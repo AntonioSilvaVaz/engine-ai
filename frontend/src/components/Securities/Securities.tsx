@@ -2514,41 +2514,41 @@ const mockRows: Security[] = [
 ];
 
 const mockColumns: FieldColums[] = [
-  { 
-    field: 'ticker', 
+  {
+    field: 'ticker',
     headerName: 'Symbol',
-    flex: 0.2, 
-    headerClassName: 'normal-header-cell', 
-    cellClassName: 'normal-cell' 
+    flex: 0.2,
+    headerClassName: 'normal-header-cell',
+    cellClassName: 'normal-cell'
   },
-  { 
+  {
     field: 'name',
     headerName: 'Name',
     flex: 0.4,
-    headerClassName: 'normal-header-cell', 
-    cellClassName: 'normal-cell' 
+    headerClassName: 'normal-header-cell',
+    cellClassName: 'normal-cell'
   },
-  { 
+  {
     field: 'sector',
     headerName: 'Sector',
     flex: 0.2,
-    headerClassName: 'normal-header-cell', 
-    cellClassName: 'normal-cell' 
+    headerClassName: 'normal-header-cell',
+    cellClassName: 'normal-cell'
   },
-  { 
+  {
     field: 'country',
     headerName: 'Country',
     flex: 0.1,
-    headerClassName: 'normal-header-cell', 
-    cellClassName: 'normal-cell' 
+    headerClassName: 'normal-header-cell',
+    cellClassName: 'normal-cell'
   },
-  { 
+  {
     field: 'trend',
     headerName: 'Trend',
     flex: 0.1,
     align: "right",
-    headerClassName: 'trend-header-cell', 
-    cellClassName: 'trend-cell' 
+    headerClassName: 'trend-header-cell',
+    cellClassName: 'trend-cell'
   },
 ];
 type Security = {
@@ -2619,8 +2619,8 @@ function Securities() {
 }
 
 function DataGridTitle() {
-  return(
-    <Box sx={{p: '10px 20px', backgroundColor: 'rgb(244 240 240)'}}>
+  return (
+    <Box sx={{ p: '10px 20px', backgroundColor: 'rgb(244 240 240)' }}>
       <Typography variant="h5">Securities</Typography>
     </Box>
   )
