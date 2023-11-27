@@ -5,7 +5,7 @@ const {getAllDataFromSecurityList, getDetailFromSecurityItem} = require('../mode
 const getAllSecurityList = async (req: Request, res: Response, next: NextFunction) => {
     try {
        const securityList = await getAllDataFromSecurityList();
-       res.status(200).json({Success: false, data: securityList});
+       res.status(200).json({Success: true, data: securityList});
     } catch (error) {
         res.status(500).json({Success: false, data: null});
     }

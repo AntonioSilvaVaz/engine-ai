@@ -13,7 +13,7 @@ const { getAllDataFromSecurityList, getDetailFromSecurityItem } = require('../mo
 const getAllSecurityList = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const securityList = yield getAllDataFromSecurityList();
-        res.status(200).json({ Success: false, data: securityList });
+        res.status(200).json({ Success: true, data: securityList });
     }
     catch (error) {
         res.status(500).json({ Success: false, data: null });
