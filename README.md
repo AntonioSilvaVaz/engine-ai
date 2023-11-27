@@ -7,7 +7,7 @@
 
 ![example 1](https://github.com/AntonioSilvaVaz/engine-ai/blob/main/assets/1.png)
 
-![example 1](https://github.com/AntonioSilvaVaz/engine-ai/blob/assets/2.png)
+![example 2](https://github.com/AntonioSilvaVaz/engine-ai/blob/main/assets/2.png)
 
 
 ## Get Started
