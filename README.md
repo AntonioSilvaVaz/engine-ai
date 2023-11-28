@@ -12,28 +12,24 @@
 
 ## Get Started
 ### app/frontend
+
+#### Env variables
+- ```touch .env```
+- `REACT_APP_API -> ex: http://localhost:3001`
+  
 - ```npm i``` to install the required node modules
 - ```npm run dev``` to run the client side app
 
-Env variables
-
-```touch .env```
-
-`REACT_APP_API -> ex: http://localhost:3001`
-
 ### app/backend
+
+#### Env variables
+- ```touch .env```
+- `PORT -> ex: 3001`
+- `FRONT_END_PORT -> ex: 3000` 
+- `DATABASE_URL -> ex: postgresql://USER:PASSWORD@HOST:PORT/DATABASE`
+  
 - ```npm i``` to install the required node modules
 - ```npm start``` to run the serverdatabase
-
-Env variables
-
-```touch .env```
-
-`PORT -> ex: 3001`
-
-`FRONT_END_PORT -> ex: 3000` 
-
-`DATABASE_URL -> ex: postgresql://USER:PASSWORD@HOST:PORT/DATABASE`
 
 # Database Type
   id           Int      @id @default(autoincrement())
