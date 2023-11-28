@@ -17,7 +17,7 @@
 #### Env variables
 - ```touch .env```
 - `REACT_APP_API -> ex: http://localhost:3001`
-  
+#### Commands  
 - ```npm i``` to install the required node modules
 - ```npm run dev``` to run the client side app
 
@@ -28,7 +28,7 @@
 - `PORT -> ex: 3001`
 - `FRONT_END_PORT -> ex: 3000` 
 - `DATABASE_URL -> ex: postgresql://USER:PASSWORD@HOST:PORT/DATABASE`
-  
+#### Commands
 - ```npm i``` to install the required node modules
 - ```npm start``` to run the serverdatabase
 
