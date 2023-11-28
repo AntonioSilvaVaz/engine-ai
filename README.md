@@ -16,7 +16,9 @@
 - ```npm run dev``` to run the client side app
 
 Env variables
+
 ```touch .env```
+
 `REACT_APP_API -> ex: http://localhost:3001`
 
 ### app/backend
@@ -26,8 +28,11 @@ Env variables
 Env variables
 
 ```touch .env```
+
 `PORT -> ex: 3001`
+
 `FRONT_END_PORT -> ex: 3000` 
+
 `DATABASE_URL -> ex: postgresql://USER:PASSWORD@HOST:PORT/DATABASE`
 
 # Database Type
